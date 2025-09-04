@@ -33,3 +33,7 @@ Route::get('/produtos', function () {
 Route::get('/sobre', function () {
     return view('sobre');
 });
+
+Route::get('/dashboard', function () {
+    return view('dashboard');
+});

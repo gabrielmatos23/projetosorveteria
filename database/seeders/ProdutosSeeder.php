@@ -17,8 +17,15 @@ class ProdutosSeeder extends Seeder
             'nome' => 'Sorvete de Chocolate',
             'tipo' => 'Sorvete',
             'quantidade_estoque' => 10,
-            'preco' => 350.00
-
-        ]);
+            'preco' => 6.50
+            
+            ],
+             [
+                'nome' => 'Sorvete de Morango',
+                'tipo' => 'Sorvete',
+                'quantidade_estoque' => 15,
+                'preco' => 5.00
+            ],
+        );
     }
 }
